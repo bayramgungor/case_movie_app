@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity"
+    android:orientation="vertical">
+
+
+
+
+ <androidx.appcompat.widget.Toolbar
+     android:id="@+id/toolbar"
+     android:layout_width="0dp"
+     android:layout_height="0dp"
+    android:background="@color/black"
+     app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+     app:title="Movies"
+     app:titleTextColor="@color/white"
+     >
+
+
+
+ </androidx.appcompat.widget.Toolbar>
+
+
+ <com.google.android.material.tabs.TabLayout
+     android:id="@+id/tabs"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:minHeight="?actionBarSize"
+     app:tabGravity="fill"
+     app:tabMode="fixed" />
+
+
+ <androidx.viewpager2.widget.ViewPager2
+     android:id="@+id/viewPager2"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent"
+     >
+
+
+
+ </androidx.viewpager2.widget.ViewPager2>
+
+
+</androidx.appcompat.widget.LinearLayoutCompat>
